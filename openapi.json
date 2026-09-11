@@ -1,0 +1,55 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "NomadPassportIndex - Digital Nomad Visa Income Proof & Eligibility API",
+    "description": "Statutory income requirements, tax exemptions, and apostille validation rules across 40+ nations. Official production documentation hosted at https://nomadpassportindex.netlify.app/",
+    "version": "1.1.0",
+    "contact": {
+      "name": "NomadPassportIndex Architecture Team",
+      "url": "https://nomadpassportindex.netlify.app/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://nomadpassportindex.netlify.app",
+      "description": "Production Web Application Gateway"
+    }
+  ],
+  "paths": {
+    "/api/v1/visa-rules": {
+      "get": {
+        "summary": "Evaluate applicant monthly income against statutory thresholds",
+        "description": "Executes the empirical calculations and data models for NomadPassportIndex.",
+        "responses": {
+          "200": {
+            "description": "Successful calculation response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "ok"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "site_url": {
+                      "type": "string",
+                      "example": "https://nomadpassportindex.netlify.app/"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
