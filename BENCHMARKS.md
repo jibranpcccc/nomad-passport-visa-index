@@ -15,3 +15,13 @@ Statutory income thresholds, visa duration, tax exemption statuses, and bank sta
 
 ---
 Maintained by [NomadPassportIndex](https://nomadpassportindex.netlify.app/).
+
+## 📚 In-Depth Technical Implementation Guides
+
+| Target Engineering Query | Production Reference & Guide URL |
+| :--- | :--- |
+| **Spain Digital Nomad Visa Income Proof** | [https://nomadpassportindex.netlify.app/spain-digital-nomad-visa-income-requirements/](https://nomadpassportindex.netlify.app/spain-digital-nomad-visa-income-requirements/) |
+| **Japan Digital Nomad Visa 10M Yen Income Proof** | [https://nomadpassportindex.netlify.app/japan-digital-nomad-visa-guide-tax-exemption/](https://nomadpassportindex.netlify.app/japan-digital-nomad-visa-guide-tax-exemption/) |
+| **Italy Digital Nomad Visa Remote Employee Vs Freelance** | [https://nomadpassportindex.netlify.app/italy-digital-nomad-visa-guide/](https://nomadpassportindex.netlify.app/italy-digital-nomad-visa-guide/) |
+| **Croatia Digital Nomad Visa Bank Statement Requirements** | [https://nomadpassportindex.netlify.app/croatia-digital-nomad-visa-requirements/](https://nomadpassportindex.netlify.app/croatia-digital-nomad-visa-requirements/) |
+
